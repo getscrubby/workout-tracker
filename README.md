@@ -8,10 +8,15 @@ Open `index.html` in a browser. No installation, build step, or account is requi
 
 - Log strength workouts with sets, reps, and optional weight.
 - Log cardio with duration and optional distance.
+- Pick a date when logging a workout, filter workout history by a chosen date or date range, and export the shown records as a CSV file that opens in Excel.
 - Add custom exercises, add notes, and remove entries from workout history.
 - View your session count and cardio minutes for the current week.
 
 Workout data is stored in the browser's local storage on the current device. It is not synced or backed up online. Clearing browser data or switching browsers/devices may remove or hide your saved workouts.
+
+## Exporting to Excel
+
+In **Workout history**, choose optional **From** and **Through** dates and select **Show dates**. The **Export shown workouts to Excel (CSV)** button downloads the records currently shown, including all records if no date filter is set. Open the downloaded `.csv` file in Excel. The export includes date, exercise, exercise type, sets, reps, weight, duration, distance, and notes.
 
 ## Publish with GitHub Pages
 
